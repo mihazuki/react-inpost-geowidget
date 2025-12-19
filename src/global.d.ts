@@ -6,13 +6,6 @@ declare module React {
         HTMLElement
       > & {
         onpoint?: (event: CustomEvent<any>) => void;
-        token: string;
-        language?: "pl" | "en" | "uk";
-        config:
-          | "parcelCollect"
-          | "parcelCollectPayment"
-          | "parcelCollect247"
-          | "parcelSend";
       };
     }
   }

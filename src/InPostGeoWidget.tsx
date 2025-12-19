@@ -83,12 +83,5 @@ export function InPostGeoWidget({
     };
   }, [token, config, language, onPoint, debug]);
 
-  return (
-    <inpost-geowidget
-      ref={ref}
-      token={token}
-      language={language}
-      config={config}
-    />
-  );
+  return <inpost-geowidget ref={ref} />;
 }
