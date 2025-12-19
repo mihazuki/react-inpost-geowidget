@@ -57,6 +57,10 @@ export function InPostGeoWidget({
     const el = ref.current;
     if (!el) return;
 
+    el.setAttribute("token", token);
+    el.setAttribute("config", config);
+    el.setAttribute("language", language);
+
     const onInit = (event: any) => {
       const api = event.detail.api;
 
@@ -77,7 +81,7 @@ export function InPostGeoWidget({
     return () => {
       el.removeEventListener("inpost.geowidget.init", onInit);
     };
-  }, [onPoint, sandbox, debug]);
+  }, [token, config, language, onPoint, debug]);
 
   return (
     <inpost-geowidget
