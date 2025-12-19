@@ -1,6 +1,6 @@
 {
   "name": "@velesx/react-inpost-geowidget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial React wrapper for the InPost GeoWidget.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
