@@ -9,7 +9,7 @@ This package allows you to easily integrate the InPost GeoWidget in your React a
 ## Installation
 
 ```bash
-npm install @veles13243/react-inpost-geowidget
+npm install @velesx/react-inpost-geowidget
 ```
 
 ## Usage
